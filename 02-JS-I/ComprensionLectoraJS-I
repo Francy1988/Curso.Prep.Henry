@@ -1,0 +1,12 @@
+Variables: guardar algo en algún lugar que después puedo recuperar de alguna forma.
+A la variable se le puede asignar valor.
+En javascript es var nombre de la variable = lo que quiero guardar.
+Strings: hilo de caracteres que se escribe entre comillas.
+Funciones: agrupar códigos que después invocaremos y se ejecute.
+Argumentos: son variables que se declaran adentro de la función que van a tomar valor
+cuando invoquemos a la función.
+Return: todas las funciones retornan algo; la ejecución de la función va a terminar.
+If: control de flujo - agrega lógica al código; si lo de entre parentesís pasa u ocurre
+Booleanos: Puede tener dos valores posibles; verdadero o falso.
+En javascript se escribe: true or false
+y son palabras reservadas.
