@@ -1,0 +1,24 @@
+El bucle for quiere decir repetir un código muchas veces.
+For tiene tres partes:
+a) la variable que va a utilizar para contar la cantidad de repeticiones que va haciendo.
+b) una condición de frenado, hasta cuando querés que se ejecute el código.
+c) y por último cómo queré que se incremente el valor.
+
+El "While" que quiere decir "mientras" que escribe una condición y bloque de código.
+La gran diferencia entre for y while es que en for ya se sabe exactamente hasta cuando 
+querés que se ejecute el código. Y el while se sigue ejecutando el código mientras la condición exista.
+
+Operadores Lógicos: (&&, ||, !)
+Para ello necesitaremos una tabla de verdad donde asignamos valores a los operadores y con la lógica demostraremos 
+si es verdadero o falso como valores booleanos a las operaciones:
+&& (And) es true si ambos valores son true.
+|| (Or) es false si los dos operadores son false; el resto es true.
+! (Not) invierte los valores de la tabla de verdad.
+
+Ejemplo:
+
+p   q   !p  !q      p&&!q    !p||q
+T   F    F   T        T         T  
+T   T    F   F        F         T  
+F   F    T   T        F         T   
+F   T    T   F        F         T   
