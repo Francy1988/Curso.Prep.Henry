@@ -1,0 +1,12 @@
+Arrays (Arrglos): son una lista de elementos, elementos ordenados al cual uno puede acceder.
+Un arreglo se define usando los "brackets" - los corchetes-.
+Los arrays pueden tener todo tipos de datos como null, string, número, undefined, function, etc.
+Para saber la cantidad de elementos que hay en un array usamos la propiedad length.
+Imprimimos en la consola: console.log(array.length).
+Var array = [] así se declara un arreglo vacio.
+Funciones:
+.push que recibe un argumento y lo pone en la posición última del arreglo.
+.pop que devuelve el valor y saca el último elemento del arreglo.
+.unshift que coloca el nuevo elemento en la primera posición de la lista.
+.shift que saca el nuevo elemento de la primera posición de la lista.
+"Para recorrer un array se usa el bucle for".
