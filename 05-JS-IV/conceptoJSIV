@@ -1,0 +1,30 @@
+Objetos: es una colección de propiedades y una propiedad es una asociación entre un nombre (key)
+y un valor (value). "En arreglos las keys son números". Basicamente un objeto literal
+ se escribe de la siguiente forma:
+            var objeto = {
+                propiedad1: valor 1,
+                ...
+                propiedadN: valor N,
+            }
+En las propiedades se acceden a través de nombres y no con números como en los arreglos.
+Un arreglo no es más que otra cosa que un objeto con indice numérico.
+Existen 2 formas de acceder a las propiedades.
+
+a) Bracket Notation - notación de corchetes; que es muy similar al arreglo, 
+se escribe corchete y nombre de la propiedad.
+b) Dot Notation - podés acceder a la propiedad a través del punto.
+ Asignando valores, es muy parecido al arreglo:
+
+        objeto.nuevaPropiedad = 1;
+        objeto['otraPropiedad'] = 2;
+Eliminar Propiedad (Delete) - se usa un keyword y se escribe de esta manera.
+        delete objeto.otraPropiedad;
+This: esto hace referencia al objeto desde donde yo invoco el método.
+
+"La diferencia entre notación de corchetes y notación de puntos, es que este último se puede acceder a través del punto, es más rápido el acceso y fácil de escribir; y el otro es más complejo porque se intercala con más variables o recorrer un objeto porque se pueden hacer más cosas.
+
+Métodos: hemos utilizado muchos métodos hasta ahora .length, .push, .pop, etc., son todos métodos. Podemos establecer una clave para un nombre y el valor para una función. Al igual que otras veces que llamamos métodos, llamaremos método usando notación de puntos y paréntesis finales - podemos llamar a un método con argumentos como lo haríamos con una función normal -.
+
+
+
+
