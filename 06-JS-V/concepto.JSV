@@ -1,0 +1,17 @@
+"Classes": una clase es una plantilla para la creación de objetos de datos según un modelo predefinido.
+Las clases se utilizan para representar entidades o conceptos, como los sustantivos dentro del lenguaje.
+Ejemplo: un animal es clase - perro y gato son instancias de la clase.
+
+Functions Constructors: esta función nos permitirá construir objetos.
+New: es un keywords que viene de java que lo que hace es instanciar una clase.
+Keywords new, lo que hace es, (tres cosas):
+a) Crea un objeto vacio,
+b) Invoca la función, y
+c) Bindea el objeto; el this de la función y después retorna el objeto.
+
+"Prototype", todos los objetos en javascript tienen su referencia a otro objeto llamdo proto.
+- Object.create y Pure Prototypal/Inheritance, Object.create recibe un objeto como parámetro y crea
+un nuevo objeto cuyo prototipo es el primero que le pasamos. Por lo tanto, vamos a poder acceder a todas
+las propiedades y métodos del objeto base en los nuevos objetos creados.
+_ El método super nos permite usar el constructor de la clase de la cual estamos heredando, 
+en este caso de la clase "Persona".
