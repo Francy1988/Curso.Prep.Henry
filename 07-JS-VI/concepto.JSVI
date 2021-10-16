@@ -1,0 +1,14 @@
+First Class Functions: Javascript es un lenguaje que trata a las funciones como first class. 
+Esto significa que las funciones se pueden pasar como argumentos a otras funciones, retornarlas 
+como resultado de una función, y guardadas en variables u otras estructuras de datos.
+
+- Cuando pasamos una función como argumentos a otra función, esta recibe el nombre de Callbacks (Cb).
+
+- Array.prototype.forEach() - el método forEach() ejecuta la función indicada una vez por cada 
+elemento del array. Es una función que no devuelve nada.
+
+- Array.prototype.map() - el método map() crea un nuevo array con los resultados de la llamada a la 
+función indicada aplicados a cada uno de sus elementos. Es una función que si retorna algo.
+
+- Array.prototype.reduce() - el método reduce() ejecuta una función reductora sobre cada elemento de
+un array, devolviendo como resultado un único valor.
